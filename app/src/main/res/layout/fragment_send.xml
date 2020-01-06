@@ -1,0 +1,112 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/orange">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+
+        android:layout_margin="20dp"
+        android:background="@drawable/transparent_card"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="20dp">
+
+        <!--Card Image-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/img"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:scaleType="centerCrop"-->
+        <!--            android:src="@drawable/orange"/>-->
+
+        <FrameLayout
+            android:layout_width="400dp"
+            android:layout_height="359dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:padding="20dp">
+
+            <!--Title & Description Text-->
+
+            <!--Button-->
+
+            <LinearLayout
+                android:layout_width="258dp"
+                android:layout_height="288dp"
+                android:layout_gravity="bottom|center_vertical"
+                android:background="#ffffff"
+                android:orientation="vertical">
+                <!--Title Text-->
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary">
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="360dp"
+                        android:layout_height="52dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:text="Please let us know"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+                </FrameLayout>
+                <!--Description Text-->
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="0dp"
+                    android:text="Name" />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="0dp"
+                    android:text="@string/menu_contact" />
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Your query" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingActionButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimaryDark"
+                    android:clickable="true"
+                    app:backgroundTint="@color/colorPrimaryDark"
+                    app:srcCompat="@drawable/ic_send_black_24dp" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
+    </ScrollView>
+

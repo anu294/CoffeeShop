@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/error_toast_container"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:background="@android:color/white"
+    android:clickable="true"
+    android:onClick="closeErrorMsg"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="190dp"
+        android:layout_height="86dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center_vertical|center|center_horizontal"
+        android:onClick="closeErrorMsg"
+        app:srcCompat="@mipmap/ic_error_foreground" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Keep the sequence"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+
+</LinearLayout>

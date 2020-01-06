@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.coffeeshop.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.coffeeshop.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_location"
+        android:name="com.example.coffeeshop.ui.location.LocationFragment"
+        android:label="@string/menu_location"
+        tools:layout="@layout/fragment_location" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.coffeeshop.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.coffeeshop.ui.share.ShareFragment"
+        android:label="@string/menu_faq"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.coffeeshop.ui.send.SendFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.coffeeshop.ui.help.HelpFragment"
+        android:label="@string/menu_help"
+        tools:layout="@layout/fragment_help" />
+</navigation>
