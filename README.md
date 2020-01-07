@@ -1,9 +1,7 @@
 # CoffeeShop
 A coffee shop android app to record stamps of purchase, with additional information about the coffee shop.
 The home page is where we stamp te card for each cofee purxhase. There is also a reset button to clear all stamps.
-![](https://github.com/anu294/CoffeeShop/blob/master/app/src/main/res/drawable/StampCard.png)
-![alt_text](https://github.com/anu294/CoffeeShop/blob/master/app/src/main/res/drawable/StampCard.png | width=100)
-
+<img src="https://github.com/anu294/CoffeeShop/blob/master/app/src/main/res/drawable/StampCard.png" alt="alt text" width="20" height="20">
 
 Customized toasts to declare completion.
 ![alt text](https://github.com/anu294/CoffeeShop/blob/master/app/src/main/res/drawable/stampComplete.png| width=100)
